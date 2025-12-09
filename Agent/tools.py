@@ -2,7 +2,7 @@ import geopandas as gpd
 import pandas as pd
 import matplotlib.pyplot as plt
 from langchain_core.tools import tool
-from langchain_community.tools import DuckDuckGoSearchRun
+from langchain_community.tools.tavily_search import TavilySearchResults
 from typing import Optional
 import os
 import osmnx as ox
@@ -167,11 +167,18 @@ def get_street_network(place_name: str, network_type: str = "drive") -> str:
 @tool
 def web_search(query: str) -> str:
     """
-    Performs a web search using DuckDuckGo to find information, reviews, ratings, etc.
+    Performs a web search using Tavily to find information, reviews, ratings, etc.
     Useful for questions about specific places, facilities, or current events.
     """
     try:
-        search = DuckDuckGoSearchRun()
-        return search.run(query)
+        # Tavily returns a list of results (dictionaries with 'url' and 'content')
+        search = TavilySearchResults(max_results=3)
+        results = search.invoke(query)
+        
+        # Format the results into a single string
+        if isinstance(results, list):
+            formatted = "\n".join([f"- {r.get('content')} (Source: {r.get('url')})" for r in results])
+            return formatted
+        return str(results)
     except Exception as e:
         return f"Error performing web search: {e}"

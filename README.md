@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a proof-of-concept for a **Geospatial AI Agent** designed to revolutionize how we interact with urban data. It serves as a testbed for integrating Large Language Models (LLMs) with geospatial analysis tools, specifically targeting the **Real Estate** sector.
+This project is a proof-of-concept for a **Geospatial AI Agent** designed to expand how we interact with urban data. It serves as a testbed for integrating Large Language Models (LLMs) with geospatial analysis tools, specifically targeting the **Real Estate** sector.
 
 The core mission is to bridge the gap between complex geospatial data (GeoJSONs, street networks, administrative boundaries) and natural language questions. Instead of writing SQL or Python code, a user can simply ask: *"Where is the cheapest apartment near a metro station?"* and the agent handles the rest.
 
@@ -13,12 +13,19 @@ In the competitive real estate market, location is everything. However, location
 -   **Accelerate Decision Making**: Instantly answer proximity and affordability questions.
 -   **Uncover Hidden Insights**: correlate noise levels, transport accessibility, and housing prices dynamically.
 
-## Why This Project is Great
+## What's the Agentic interest of this project?
 
 -   **Autonomous Reasoning**: It doesn't just look up data; it *plans* an analysis. If you ask for specific streets, it knows to fetch fresh data from OpenStreetMap.
 -   **Tool-Use Capabilities**: It leverages a suite of specialized tools (`geopandas`, `osmnx`) to perform rigorous spatial operations (joins, nearest neighbor searches) rather than hallucinating answers.
 -   **Synthetic Data Engine**: Includes a robust generator for synthetic housing data, complete with realistic pricing models and real street addresses, enabling stress-free testing and demonstrations.
 -   **Visual Output**: Capable of generating plots and maps on the fly to visualize trends and locations.
+
+## Data Sources
+
+The accuracy of this agent relies on a blend of high-quality data sources:
+1.  **OpenStreetMap (OSM)**: Used for live street networks, amenities, and walking paths (accessed via `osmnx`).
+2.  **Official Government Data**: Administrative boundaries and public service locations sourced from Portuguese open data portals (e.g., *dados.gov.pt*, *Lisboa Aberta*).
+3.  **Synthetic Data**: A generated dataset of residential properties (`synthetic_houses.geojson`) designed to mimic real market conditions, providing safe test data for proximity and pricing analysis.
 
 ## Agentic Capabilities: Improving RAG
 

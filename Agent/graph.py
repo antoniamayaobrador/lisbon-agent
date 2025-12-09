@@ -4,7 +4,8 @@ from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from .rag import VectorStoreManager
-from .tools import load_geojson, spatial_join, attribute_join, analyze_data, find_nearest, get_street_network, web_search
+from .tools import load_geojson, spatial_join, attribute_join, analyze_data, find_nearest, get_street_network
+from langchain_core.utils.function_calling import convert_to_openai_tool
 from .observability import Observability
 from .config import Config
 import json
@@ -73,7 +74,9 @@ def agent_node(state: AgentState):
         2. `spatial_join` / `attribute_join`: Use to combine datasets. These tools return a NEW file path. Use this path for subsequent steps.
         3. `find_nearest`: Use to find the closest features from one dataset to another (e.g., closest restaurant to a station).
         4. `get_street_network`: Use to fetch fresh street data for a place.
-        5. `web_search`: Use to find qualitative info (reviews, ratings, opening hours, facts) or when you need data not in your datasets. 
+        5. `web_search`: Use to find qualitative info (reviews, ratings, opening hours, facts). 
+           - **PRIORITY RULE**: ALWAYS check your internal datasets (via `spatial_join` or `find_nearest`) FIRST for lists of places (e.g. "restaurants in X"). 
+           - Only use `web_search` if the internal data is missing or if the user specifically asks for external info like "reviews" or "history".
         6. `analyze_data`: Use to perform calculations, filtering, aggregations, OR PLOTTING.
            - You must write valid Python code (pandas/geopandas/matplotlib).
            - The dataframe is available as `gdf`.
@@ -104,8 +107,13 @@ def agent_node(state: AgentState):
         ("placeholder", "{messages}"),
     ])
     
-    tools = [load_geojson, spatial_join, attribute_join, analyze_data, find_nearest, get_street_network, web_search]
-    agent = prompt | llm.bind_tools(tools)
+    tools = [load_geojson, spatial_join, attribute_join, analyze_data, find_nearest, get_street_network]
+    
+    # Convert python tools to OpenAI format and add the native web_search tool dict
+    openai_tools = [convert_to_openai_tool(t) for t in tools]
+    openai_tools.append({"type": "web_search"})
+    
+    agent = prompt | llm.bind(tools=openai_tools)
     
     response = agent.invoke({"messages": messages, "dataset_context": dataset_context})
     
@@ -143,8 +151,7 @@ def tool_node(state: AgentState):
         "attribute_join": attribute_join,
         "analyze_data": analyze_data,
         "find_nearest": find_nearest,
-        "get_street_network": get_street_network,
-        "web_search": web_search
+        "get_street_network": get_street_network
     }
     
     responses = []

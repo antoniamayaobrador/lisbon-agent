@@ -7,21 +7,43 @@ from .config import Config
 
 API_URL = "http://localhost:8000"
 
-def query_agent(message, history):
+async def query_agent(message, history):
     try:
-        # In a real scenario, we'd call the API. 
-        # For local demo simplicity, we can also import the graph directly if we want to avoid running separate processes.
-        # But let's stick to the plan and assume the API is running or we use the graph directly.
-        # To make it easier for the user to run just one script, I'll import the graph directly here too.
         from .graph import app as agent_app
         from langchain_core.messages import HumanMessage
         
         inputs = {"messages": [HumanMessage(content=message)]}
-        result = agent_app.invoke(inputs)
-        answer = result["messages"][-1].content
-        return answer
+        
+        # Use astream_events to catch token streaming from the LLM
+        # We look for "on_chat_model_stream" events.
+        final_answer = ""
+        
+        async for event in agent_app.astream_events(inputs, version="v1"):
+            kind = event["event"]
+            
+            # Streaming LLM tokens
+            if kind == "on_chat_model_stream":
+                chunk = event["data"]["chunk"]
+                content = chunk.content
+                if content:
+                    if isinstance(content, list):
+                        # Handle list content (e.g. from complex tool calls or reasoning models)
+                        for item in content:
+                            if isinstance(item, str):
+                                final_answer += item
+                            elif isinstance(item, dict) and "text" in item:
+                                final_answer += item["text"]
+                    else:
+                        final_answer += str(content)
+                    
+                    yield final_answer
+                    
+            # Optional: Intermediate status updates on tool usage?
+            # if kind == "on_tool_start":
+            #     yield final_answer + f"\n\n*Using tool: {event['name']}...*"
+            
     except Exception as e:
-        return f"Error: {e}"
+        yield f"Error: {e}"
 
 def rate_answer(rating, comment):
     # This would typically send to the API or save locally
