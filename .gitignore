@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Specific
+data/
+!data/synthetic_houses.geojson
+chroma_db/
+.DS_Store
+logs/
+cache/
+
+# IDE
+.vscode/
+.idea/

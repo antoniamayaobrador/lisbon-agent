@@ -1,0 +1,797 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.20722096074306,
+                    38.6938825588678
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "COD_SIG": "725",
+                "INF_NOME": "Espaço Espelho de Água",
+                "INF_MORADA": "Avenida de Brasília, 210",
+                "FREGUESIA": "Belém",
+                "INF_TELEFONE": "+351 213 010 510",
+                "INF_EMAIL": "info@espacoespelhodeagua.com",
+                "INF_SITE": "www.espacoespelhodeagua.com",
+                "INF_DESCRICAO": null,
+                "INF_ACTIVO": 1,
+                "GlobalID": "5cc03923-5b4a-4aed-a610-ff78821311a8"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.2120881323289,
+                    38.6942137352231
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "COD_SIG": "726",
+                "INF_NOME": "Karnart - Criação e Produção de Objectos Artísticos",
+                "INF_MORADA": "Avenida da Índia, 168",
+                "FREGUESIA": "Belém",
+                "INF_TELEFONE": "+351 914 150 935",
+                "INF_EMAIL": "geral@karnart.org",
+                "INF_SITE": "www.karnart.org",
+                "INF_DESCRICAO": "Residências artísticas em diversas áreas.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "108f077c-9311-4ab5-8840-380bd7c32442"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15481407825706,
+                    38.7075997473404
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "COD_SIG": "727",
+                "INF_NOME": "Alkantara",
+                "INF_MORADA": "Calçada Marquês de Abrantes, 99",
+                "FREGUESIA": "Estrela",
+                "INF_TELEFONE": "+351 213 152 267",
+                "INF_EMAIL": "susana.lopes@alkantara.pt",
+                "INF_SITE": "www.alkantara.pt",
+                "INF_DESCRICAO": "Residências artísticas em dança contemporânea.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "acdd73e1-5acf-43b4-821b-6e724a051129"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14042123885573,
+                    38.7083523142434
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "COD_SIG": "728",
+                "INF_NOME": "Faculdade de Belas-Artes da Universidade de Lisboa ",
+                "INF_MORADA": "Largo da Academia Nacional de Belas Artes, 2",
+                "FREGUESIA": "Santa Maria Maior",
+                "INF_TELEFONE": "+351 213 252 100 ",
+                "INF_EMAIL": "academicos@belasartes.ulisboa.pt ",
+                "INF_SITE": "www.belasartes.ulisboa.pt",
+                "INF_DESCRICAO": "Residências artísticas em artes visuais e design.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "328f1d96-4df7-4032-9b3f-b06333e853a8"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14910151452065,
+                    38.7088667129831
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "COD_SIG": "729",
+                "INF_NOME": "Plataforma Revólver",
+                "INF_MORADA": "Rua da Boavista, 84 ",
+                "FREGUESIA": "Misericórdia",
+                "INF_TELEFONE": "+351 213 433 259",
+                "INF_EMAIL": "transboavista.vpf.art@gmail.com",
+                "INF_SITE": "transboavista-vpf.net",
+                "INF_DESCRICAO": "Residências artísticas em arte contemporânea.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "9b4f8827-d7e8-4b8d-9654-bc6d1c4d27dd"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14836805540759,
+                    38.7088830631737
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "COD_SIG": "730",
+                "INF_NOME": "Residências da Boavista",
+                "INF_MORADA": "Rua da Boavista, 46",
+                "FREGUESIA": "Misericórdia",
+                "INF_TELEFONE": "+351 218 172 600",
+                "INF_EMAIL": "pologaivotasboavista@cm-lisboa.pt ",
+                "INF_SITE": "http://www.cm-lisboa.pt/en/polo-cultural-gaivotas-boavista/residencias-da-boavista",
+                "INF_DESCRICAO": "Residências artísticas em várias áreas.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "5c560879-26b5-4e2a-b9ef-b04b395dbc07"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15119756659166,
+                    38.7094140890743
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "COD_SIG": "731",
+                "INF_NOME": "Rua das Gaivotas 6",
+                "INF_MORADA": "Rua das Gaivotas, 6",
+                "FREGUESIA": "Misericórdia",
+                "INF_TELEFONE": "+351 210 962 355",
+                "INF_EMAIL": "ruadasgaivotas@teatropraga.com",
+                "INF_SITE": "www.ruadasgaivotas6.pt",
+                "INF_DESCRICAO": null,
+                "INF_ACTIVO": 1,
+                "GlobalID": "ecfe7604-4652-446a-b2a7-2c5c640b5e53"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14496987108243,
+                    38.710181687829
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "COD_SIG": "732",
+                "INF_NOME": "Duplacena",
+                "INF_MORADA": "Rua da Horta Sêca, 44 - 2º Dto",
+                "FREGUESIA": "Misericórdia",
+                "INF_TELEFONE": "+351 213 230 074 ",
+                "INF_EMAIL": "duplacena@duplacena.com",
+                "INF_SITE": "www.duplacena.com",
+                "INF_DESCRICAO": "Residências artísticas na área das artes visuais.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "2260b4fc-3c88-48b6-a15d-cda06e49c383"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15048462897328,
+                    38.7102835164025
+                ]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "COD_SIG": "733",
+                "INF_NOME": "Atelier Real ",
+                "INF_MORADA": "Rua Poço dos Negros, 55",
+                "FREGUESIA": "Misericórdia",
+                "INF_TELEFONE": "+351 213 909 255",
+                "INF_EMAIL": "info@re-al.org",
+                "INF_SITE": "www.atelierconcorde.org",
+                "INF_DESCRICAO": "Residências artísticas na área das artes visuais.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "a1c7d29b-63ff-417b-a2fa-6fdbaab6b9cb"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13595780198719,
+                    38.7109699823663
+                ]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "COD_SIG": "734",
+                "INF_NOME": "C.e.m - Centro em Movimento",
+                "INF_MORADA": "Rua dos Fanqueiros, 150 - 1º",
+                "FREGUESIA": "Santa Maria Maior",
+                "INF_TELEFONE": "+351 218 871 763",
+                "INF_EMAIL": "sofia.newparth@gmail.com",
+                "INF_SITE": "www.c-e-m.org",
+                "INF_DESCRICAO": "Residências artísticas em dança.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "f6c601d5-d989-42e9-a58f-9cf1350b04b3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14632318047244,
+                    38.7115751698093
+                ]
+            },
+            "properties": {
+                "OBJECTID": 11,
+                "COD_SIG": "735",
+                "INF_NOME": "Companhia Clara Andermatt - ACCA",
+                "INF_MORADA": "Rua dos Caetanos, 1 - 3º",
+                "FREGUESIA": "Misericórdia",
+                "INF_TELEFONE": "+351 215 903 105",
+                "INF_EMAIL": "accca@clara-andermatt.com",
+                "INF_SITE": "www.facebook.com/pg/ACCCAndermatt",
+                "INF_DESCRICAO": "Residências artísticas na área da dança.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "e75b4c41-edda-481a-aa8a-b5d5b6c504ee"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14161422347636,
+                    38.7117642865879
+                ]
+            },
+            "properties": {
+                "OBJECTID": 12,
+                "COD_SIG": "736",
+                "INF_NOME": "Clube Português de Artes e Ideias",
+                "INF_MORADA": "Largo Rafael Bordalo Pinheiro, 29 - 2º",
+                "FREGUESIA": "Santa Maria Maior",
+                "INF_TELEFONE": "+351 213 230 091",
+                "INF_EMAIL": "geral@cpai.pt",
+                "INF_SITE": "www.facebook.com/Clube-Português-de-Artes-e-Ideias",
+                "INF_DESCRICAO": "Residências artisticas em diversas áreas culturais.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "65cc5de3-82a4-4cb5-a4ee-0537d699152b"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14459016488294,
+                    38.7117883634769
+                ]
+            },
+            "properties": {
+                "OBJECTID": 13,
+                "COD_SIG": "737",
+                "INF_NOME": "Galeria Zé dos Bois",
+                "INF_MORADA": "Rua da Barroca, 59",
+                "FREGUESIA": "Misericórdia",
+                "INF_TELEFONE": "+ 351 213 430 205",
+                "INF_EMAIL": "prazeres@zedosbois.org",
+                "INF_SITE": "www.zedosbois.org",
+                "INF_DESCRICAO": "Residências artísticas em artes visuais, performativas e música.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "e566ac35-26f1-4097-afaf-ea16ecf4b2e3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12804373127612,
+                    38.7127299584999
+                ]
+            },
+            "properties": {
+                "OBJECTID": 14,
+                "COD_SIG": "738",
+                "INF_NOME": "Coletivo Multimédia Perve",
+                "INF_MORADA": "Rua das Escolas Gerais, 17",
+                "FREGUESIA": "Santa Maria Maior",
+                "INF_TELEFONE": "+351 218 822 607",
+                "INF_EMAIL": "galeria@pervegaleria.eu",
+                "INF_SITE": "www.pervegaleria.eu",
+                "INF_DESCRICAO": "Residências artísticas na área das artes contemporâneas .",
+                "INF_ACTIVO": 1,
+                "GlobalID": "cd1c2b53-06a4-42c3-99c8-be790a3f9553"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14590320343572,
+                    38.7143982492727
+                ]
+            },
+            "properties": {
+                "OBJECTID": 15,
+                "COD_SIG": "739",
+                "INF_NOME": "Arquivo 237",
+                "INF_MORADA": "Rua da Rosa, 237 - R/C",
+                "FREGUESIA": "Misericórdia",
+                "INF_TELEFONE": "+351 213 426 237",
+                "INF_EMAIL": "info@arquivo237.com",
+                "INF_SITE": "www.arquivo237.com",
+                "INF_DESCRICAO": null,
+                "INF_ACTIVO": 1,
+                "GlobalID": "bc943d8d-5e97-4199-8a2f-8765bf206bba"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13291109871998,
+                    38.7148688721225
+                ]
+            },
+            "properties": {
+                "OBJECTID": 16,
+                "COD_SIG": "740",
+                "INF_NOME": "Teatro da Garagem",
+                "INF_MORADA": "Costa do Castelo, 75",
+                "FREGUESIA": "Santa Maria Maior",
+                "INF_TELEFONE": "+351 218 854 190",
+                "INF_EMAIL": "geral@teatrodagaragem.com",
+                "INF_SITE": "www.teatrodagaragem.com",
+                "INF_DESCRICAO": null,
+                "INF_ACTIVO": 1,
+                "GlobalID": "67ffe16b-2f1c-4ec4-8e19-6473395dadc9"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.14611685033203,
+                    38.7147628867888
+                ]
+            },
+            "properties": {
+                "OBJECTID": 17,
+                "COD_SIG": "741",
+                "INF_NOME": "Apordoc - Associação para o Documentário",
+                "INF_MORADA": "Rua da Rosa, 277, 2º",
+                "FREGUESIA": "Misericórdia",
+                "INF_TELEFONE": "+351 213 470 816",
+                "INF_EMAIL": "geral@apordoc.org",
+                "INF_SITE": "www.apordoc.org",
+                "INF_DESCRICAO": "Residências artísticas na área do Cinema.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "c7d84f34-079a-4365-be39-0a17c5710fe2"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12999823781683,
+                    38.7157511545464
+                ]
+            },
+            "properties": {
+                "OBJECTID": 18,
+                "COD_SIG": "742",
+                "INF_NOME": "Eira",
+                "INF_MORADA": "Travessa de São Vicente, 11 - R/C",
+                "FREGUESIA": "São Vicente",
+                "INF_TELEFONE": "+351 213 530 931",
+                "INF_EMAIL": "eira@eira.pt",
+                "INF_SITE": "www.eira.pt",
+                "INF_DESCRICAO": "Residências artísticas na área da dança contemporânea.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "1f844930-2473-4177-b779-34e160a0e010"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15441688516477,
+                    38.7156032180877
+                ]
+            },
+            "properties": {
+                "OBJECTID": 19,
+                "COD_SIG": "743",
+                "INF_NOME": "Zaratan - Arte Contemporânea",
+                "INF_MORADA": "Rua de São Bento, 432 ",
+                "FREGUESIA": "Santo António",
+                "INF_TELEFONE": "+351 965 218 382",
+                "INF_EMAIL": "residencies@zaratan.pt",
+                "INF_SITE": "www.zaratan.pt",
+                "INF_DESCRICAO": "Residências artísticas em várias áreas.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "bb6658fd-850c-45b8-8ed4-7abaf3b76bec"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13447498612919,
+                    38.7168748585562
+                ]
+            },
+            "properties": {
+                "OBJECTID": 20,
+                "COD_SIG": "744",
+                "INF_NOME": "Cubículo Projecto Galeria",
+                "INF_MORADA": "Rua do Terreirinho, 63 - 1º Dto",
+                "FREGUESIA": "Santa Maria Maior",
+                "INF_TELEFONE": "+351 917 093 674",
+                "INF_EMAIL": "cubiculoprojectogaleria@gmail.com",
+                "INF_SITE": "http://cpnintape.wixsite.com/cubiculoprojecto",
+                "INF_DESCRICAO": "Residências artísticas na área das artes visuais e performance.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "e17ffa30-3ff1-4d4b-8e0a-4379638ed63c"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12502219148006,
+                    38.7175861021279
+                ]
+            },
+            "properties": {
+                "OBJECTID": 21,
+                "COD_SIG": "745",
+                "INF_NOME": "Atelier Concorde",
+                "INF_MORADA": "Rua Leite de Vasconcelos, 43 A - R/C",
+                "FREGUESIA": "São Vicente",
+                "INF_TELEFONE": null,
+                "INF_EMAIL": "info@atelierconcorde.org",
+                "INF_SITE": "www.atelierconcorde.org",
+                "INF_DESCRICAO": "Residências artísticas na área das artes visuais. ",
+                "INF_ACTIVO": 1,
+                "GlobalID": "d88a4ce1-ab3c-44dc-ae04-5878bf12c363"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.1323477766294,
+                    38.7185144824314
+                ]
+            },
+            "properties": {
+                "OBJECTID": 22,
+                "COD_SIG": "746",
+                "INF_NOME": "Hangar - Centro de Investigação Artística",
+                "INF_MORADA": "Rua Damasceno Monteiro, 12",
+                "FREGUESIA": "São Vicente",
+                "INF_TELEFONE": "+351 218 871 481",
+                "INF_EMAIL": " geral@hangar.com.pt",
+                "INF_SITE": "www.hangar.com.pt",
+                "INF_DESCRICAO": null,
+                "INF_ACTIVO": 1,
+                "GlobalID": "169eaccd-51b2-4e85-950d-dc677d0bc314"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13510882182107,
+                    38.7209465262015
+                ]
+            },
+            "properties": {
+                "OBJECTID": 23,
+                "COD_SIG": "747",
+                "INF_NOME": "Largo Residências",
+                "INF_MORADA": "Largo do Intendente Pina Manique, 22",
+                "FREGUESIA": "Arroios",
+                "INF_TELEFONE": "+351 218 885 420",
+                "INF_EMAIL": "booking@largoresidencias.com",
+                "INF_SITE": "www.largoresidencias.com",
+                "INF_DESCRICAO": "Residências artísticas em várias áreas.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "eb8c7cac-04d3-46d0-8724-bac4aee5a83f"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15573648628943,
+                    38.7222360614431
+                ]
+            },
+            "properties": {
+                "OBJECTID": 24,
+                "COD_SIG": "748",
+                "INF_NOME": "Fundação Arpad Szenes-Vieira da Silva",
+                "INF_MORADA": "Praça das Amoreiras, 56",
+                "FREGUESIA": "Santo António",
+                "INF_TELEFONE": "+351 213 880 044 ",
+                "INF_EMAIL": "fasvs@fasvs.pt ",
+                "INF_SITE": "www.fasvs.pt",
+                "INF_DESCRICAO": null,
+                "INF_ACTIVO": 1,
+                "GlobalID": "302e4bc6-737d-4860-a735-87d3f8427af0"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13932085497453,
+                    38.7229855197414
+                ]
+            },
+            "properties": {
+                "OBJECTID": 25,
+                "COD_SIG": "749",
+                "INF_NOME": "Maumaus - Centro de Contaminação Visual",
+                "INF_MORADA": "Campo dos Mártires da Pátria, 100 - 1º Esq",
+                "FREGUESIA": "Arroios",
+                "INF_TELEFONE": "+ 351 213 521 155",
+                "INF_EMAIL": "maumaus@maumaus.org",
+                "INF_SITE": "www.maumaus.org",
+                "INF_DESCRICAO": "Residências artísticas em artes visuais e audiovisuais.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "22ec5961-04fe-4227-87c4-7faeb2789e66"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13281410628155,
+                    38.7287088504773
+                ]
+            },
+            "properties": {
+                "OBJECTID": 26,
+                "COD_SIG": "750",
+                "INF_NOME": "Roundabout.Lx",
+                "INF_MORADA": "Rua Cidade de Cardiff, 54B",
+                "FREGUESIA": "Penha de França",
+                "INF_TELEFONE": "+351 922 265 008",
+                "INF_EMAIL": "contact.roundabout@gmail.com",
+                "INF_SITE": "roundaboutlx.wordpress.com",
+                "INF_DESCRICAO": "Residências artistas em diversas áreas.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "11f107d3-e262-4083-a894-299e1552120d"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.18551375650666,
+                    38.7290457993397
+                ]
+            },
+            "properties": {
+                "OBJECTID": 27,
+                "COD_SIG": "751",
+                "INF_NOME": "Residências Artísticas de Monsanto - Casa de Função 31",
+                "INF_MORADA": "Estrada Bela Vista, 31",
+                "FREGUESIA": "Benfica",
+                "INF_TELEFONE": "+351 218172 600",
+                "INF_EMAIL": "pologaivotasboavista@cm-lisboa.pt",
+                "INF_SITE": "http://www.cm-lisboa.pt/en/polo-cultural-gaivotas-boavista/residencias-da-boavista",
+                "INF_DESCRICAO": "Residências artísticas em várias áreas.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "f481c958-c58a-40c2-b8f6-39413d783495"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12980078001436,
+                    38.7301538762495
+                ]
+            },
+            "properties": {
+                "OBJECTID": 28,
+                "COD_SIG": "752",
+                "INF_NOME": "Espaço da Penha ",
+                "INF_MORADA": "Travessa do Calado, 26B",
+                "FREGUESIA": "Penha de França",
+                "INF_TELEFONE": "+351 213 431 646",
+                "INF_EMAIL": "info@orumodofumo.com",
+                "INF_SITE": "www.orumodofumo.com",
+                "INF_DESCRICAO": "Espaço colaborativo das associações O Rumo do Fumo e o Forum Dança. Dispõe de 5 estúdios, gabinetes de trabalho, sala de formação, centro de documentação e mediateca do Forum Dança, armazéns e áreas comuns, o ESPAÇO DA PENHA é uma casa aberta para a comunidade artística nacional e internacional e para todos quantos se interessam pelas artes do espectáculo. ",
+                "INF_ACTIVO": 1,
+                "GlobalID": "bf610ad5-7254-4be9-83da-8bd599158968"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.17229928530238,
+                    38.7357124447652
+                ]
+            },
+            "properties": {
+                "OBJECTID": 29,
+                "COD_SIG": "753",
+                "INF_NOME": "Residências Artísticas de Monsanto - Casa de Função 12",
+                "INF_MORADA": "Parque Florestal de Monsanto, Casa do Guarda Florestal - 12, Rua Inácio Pardelhas Sanchez,",
+                "FREGUESIA": "Campolide",
+                "INF_TELEFONE": "+351 218 172 600",
+                "INF_EMAIL": "pologaivotasboavista@cm-lisboa.pt",
+                "INF_SITE": "http://www.cm-lisboa.pt/en/polo-cultural-gaivotas-boavista/residencias-da-boavista",
+                "INF_DESCRICAO": "Residências artísticas em várias áreas.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "24e14842-5e04-484c-888f-f07116fd69fd"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12788619426115,
+                    38.736927548274
+                ]
+            },
+            "properties": {
+                "OBJECTID": 30,
+                "COD_SIG": "754",
+                "INF_NOME": "Sintax",
+                "INF_MORADA": "Rua Coronel Ferreira do Amaral, 21A",
+                "FREGUESIA": "Penha de França",
+                "INF_TELEFONE": "+351 912 325 052",
+                "INF_EMAIL": "syntax@syntaxproject.org",
+                "INF_SITE": "www.syntaxproject.org",
+                "INF_DESCRICAO": "Residências artísticas em artes contemporâneas.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "e2de3f07-c4ed-4f9b-91fa-c0b0453e72d3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.10123055027479,
+                    38.7439185063763
+                ]
+            },
+            "properties": {
+                "OBJECTID": 31,
+                "COD_SIG": "755",
+                "INF_NOME": "Fábrica do Braço de Prata",
+                "INF_MORADA": "Rua Fábrica de Material de Guerra, 1",
+                "FREGUESIA": "Marvila",
+                "INF_TELEFONE": "+351 965 518 068",
+                "INF_EMAIL": "fabricabprata@gmail.com",
+                "INF_SITE": "https://www.bracodeprata.com/",
+                "INF_DESCRICAO": "Residências artísticas em várias áreas.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "84cac591-c672-4d30-8535-85b658c3ae24"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.15646850370579,
+                    38.7546336884368
+                ]
+            },
+            "properties": {
+                "OBJECTID": 32,
+                "COD_SIG": "756",
+                "INF_NOME": "Direção-Geral do Livro, dos Arquivos e das Bibliotecas",
+                "INF_MORADA": "Alameda da Universidade, Torre do Tombo;",
+                "FREGUESIA": "Alvalade",
+                "INF_TELEFONE": "+351 210 037 100",
+                "INF_EMAIL": "secretariado@dglab.gov.pt",
+                "INF_SITE": "dglab.gov.pt",
+                "INF_DESCRICAO": null,
+                "INF_ACTIVO": 1,
+                "GlobalID": "eaf341ad-e376-456a-9926-97151c82fb52"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.09338483979676,
+                    38.7609752070056
+                ]
+            },
+            "properties": {
+                "OBJECTID": 33,
+                "COD_SIG": "757",
+                "INF_NOME": "Companhia Nacional de Bailado",
+                "INF_MORADA": "Teatro Camões, Passeio de Neptuno, Parque das Nações",
+                "FREGUESIA": "Parque das Nações",
+                "INF_TELEFONE": "+351 218 923 470",
+                "INF_EMAIL": "info@cnb.pt",
+                "INF_SITE": "www.cnb.pt",
+                "INF_DESCRICAO": "Residências artísticas em dança.",
+                "INF_ACTIVO": 1,
+                "GlobalID": "f70da416-5974-4088-9ee8-79df3b0b2060"
+            }
+        }
+    ]
+}
