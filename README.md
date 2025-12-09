@@ -23,9 +23,11 @@ In the competitive real estate market, location is everything. However, location
 ## Features
 
 -   **Context-Aware Retrieval (RAG)**: Automatically selects the most relevant datasets (tourism, noise, boundaries) for any query.
+-   **Web Search**: Uses **DuckDuckGo** to find real-time info, reviews, and ratings (e.g., "What do people say about this restaurant?").
 -   **Street-Sensitive Analysis**: Integrated with **OpenStreetMap** to understand street networks, walkability, and exact locations.
 -   **Advanced Spatial Queries**:
     -   *Proximity*: "Find art galleries within 500m."
+    -   *Reviews*: "Find the cheapest house and look up reviews for the neighborhood."
     -   *Containment*: "Which freguesia has the most museums?"
     -   *Affordability*: "Rank areas by price per square meter."
 -   **Interactive Interface**: A clean, Gradio-based chat UI for easy interaction.
@@ -49,8 +51,12 @@ pip install osmnx
 ```
 
 ### 2. Configuration
-Create a `.env` file with your API key:
-```
+Create a `.env` file in the root directory.
+
+**Required API Keys:**
+-   `OPENAI_API_KEY`: Required for the agent to function (GPT-4o).
+
+```bash
 OPENAI_API_KEY=sk-...
 ```
 

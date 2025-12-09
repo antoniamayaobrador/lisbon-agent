@@ -31,7 +31,7 @@ env.bak/
 venv.bak/
 
 # Project Specific
-data/
+data/*
 !data/synthetic_houses.geojson
 chroma_db/
 .DS_Store
